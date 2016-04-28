@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
-  <title>Javascript Tutorial</title>
+  <title>Final Project1</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="assets/css/app.css">
@@ -10,24 +11,58 @@
   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </head>
+
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
-          <img alt="Brand" src="assets/images/logo.png">
+          <img id="brand" alt="Brand" src="assets/images/lw-logo.jpg">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" id="home">Home</a></li>
-          <li><a href="#" id="about">About</a></li>
+        <ul class="nav navbar-nav navbar">
+          <li><a href="localidad.html" id="home">Localidad</a></li>
+          <li><a href="contactanos.html" id="about">Contactanos</a></li>
         </ul>
-      </div><!-- /.navbar-collapse -->
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
   </nav>
-  <div class="container">
-    <!-- Container -->
+  <div class="">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 id="msn">¡De Todo Lo Que Pueda Necestitar <br> Para Que Lo Haga Usted Mismo!</h1>
+        <img id="ferreluiswal" src="assets/images/ferreluiswal.PNG" alt="ferreluiswal" />
+        <div class="">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <h1 id="pinturas-msn">¡La Mas Grande Variedad De Pinturas <br> Para Interior y Exterior!</h1>
+              <img id="pinturas" src="http://estaticos.qdq.com/swdata/photos/939/939968466/939968466_01.jpg" alt="Pinturas Sol" />
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <h1 id="trimmers-msn">¡Trimmers y Acsesorios Marca STIHL!</h1>
+              <img id="power-tools" src="http://sadteh24.ru/wa-data/public/blog/img/Stihl-String-Trimmers%20(1).jpg" alt="Trimmers" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dropup">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Busque sus Herramientas Aquí!
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li><a href="selladodetecho.html">Sellado de Techo</a></li>
+        <li><a href="s">Herramientas de Patio</a></li>
+        <li><a href="soldadura.html">Soldadura y Plomeria</a></li>
+        <li><a href="cerraduras.html">Cerraduras</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="contactanos.html">Sobre Nosotros</a></li>
+      </ul>
+    </div>
   </div>
 </body>
+
 </html>
